@@ -1,0 +1,27 @@
+.mainconten {
+  margin-top: 40px;
+  display: contents;
+  border: 1px solid black;
+  position: relative;
+}
+
+.headtext {
+  position: relative;
+  height: fit-content;
+  left: 10px;
+  font-size: 40px;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  line-height: 46px;
+  font-weight: 700;
+  top: 10px;
+}
+
+.Feeds {
+  position: relative;
+  background-color: #f2f2f2 !important;
+  padding: 50px;
+  justify-content: space-between;
+}
+.more-less{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}

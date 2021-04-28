@@ -1,0 +1,13 @@
+.footerbottom {
+    display: contents;
+    position: relative;
+    background-color: #f7f7f7;
+    justify-content: center;
+}
+
+.footerbottom>p {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+}

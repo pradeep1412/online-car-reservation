@@ -1,0 +1,116 @@
+.nav {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+
+.Navi_left {
+    position: relative;
+    left: 20px;
+    display: flex;
+    padding: 5px;
+    width: max-content;
+    padding-top: 15px;
+    justify-content: center;
+}
+
+.logo_name {
+    width: max-content !important;
+    padding-left: 20px;
+    position: absolute;
+    display: flex;
+    color: white;
+    font-weight: 400;
+    size: 20px;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.lgname {
+    font-size: medium;
+    padding-top: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.logo_name:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.search {
+    position: absolute;
+    padding: 2px;
+    margin-left: 270px;
+    height: 34px;
+    margin-bottom: 5px;
+    width: inherit;
+    display: flex;
+    border-radius: 15px;
+    padding-top: 5px;
+    border: none;
+    background-color: white;
+    visibility: hidden;
+}
+
+.inputvalue {
+    border: none;
+    border-color: white;
+}
+
+.Navi_right {
+    position: relative;
+    display: flex;
+    right: 20px;
+    color: white;
+    padding: 5px;
+    padding-top: 15px;
+}
+
+.parahost {
+    size: 14px;
+    color: white;
+    font-weight: 600;
+    padding-top: 5px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.parahost:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.avartersplit {
+    margin-right: 20px;
+}
+
+.avatar {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.toggle {
+    width: min-content;
+    height: min-content;
+    border-radius: 50% !important;
+}
+
+btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.btn-group {
+    top: -10px;
+}
+
+.drop-about{
+    text-decoration: none !important;
+}
+.drop-about :hover{
+    text-decoration: none !important;
+}

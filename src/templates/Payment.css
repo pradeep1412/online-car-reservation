@@ -1,0 +1,501 @@
+.contain-payment{
+    background-color: #f2f2cf;
+    height: 800px;
+    position: relative;
+
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-serif;
+    
+}
+.head-pay{
+    margin-top: 30px;
+    text-align: center;
+}
+.payment-paper{
+    position: relative;    
+    background-size: 100 100;
+}
+.head-sub{
+    /* position:absolute;
+    top:60px;
+    left: 40%; */
+    text-align: center;
+}
+.id-text{
+    /* position:absolute; */
+    text-align: center;
+    /* top:90px;
+    left: 35%; */
+}
+.car-svg{
+    position: absolute;
+    background-size:100% 100%;
+    height: 400px;
+    background-color: none;
+    top:40% !important;
+    left: 15% !important;
+    /* transform:skew(10deg) !important;     */
+    /* trie */
+
+    position: absolute;
+    width: 187.15px;
+    height: 87.15px;
+    left: 125.17px;
+    top: 261.01px;
+    animation: rotateanimated infinite step-start 0.s 4 alternate-reverse ease;
+
+}
+.contain-paydetails{
+    /* background-image: url(../templates/media/pics/undraw_Online_party_re_7t6g.svg); */
+    background-size: 100% 100%;
+    height: 400px;
+    width: 70%;
+    left: 40% !important;
+    transform: rotate(0deg) !important;
+    /* bottom */
+
+    position: absolute;
+    width: 57.58px;
+    height: 128.94px;
+    left: 199.47px;
+    top: 225.51px;
+
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 51.56%;
+    right: 43.48%;
+    top: 83.74%;
+    bottom: 8.15%;
+
+    background: #A0616A;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 51.98%;
+    right: 42.85%;
+    top: 93.06%;
+    bottom: 4.42%;
+
+    background: #2F2E41;
+    transform: matrix(0.9, -0.44, 0.44, 0.9, 0, 0);
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 48.97%;
+    right: 44.17%;
+    top: 76.88%;
+    bottom: 9.24%;
+
+    background: #2F2E41;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 47.45%;
+    right: 47.84%;
+    top: 88.34%;
+    bottom: 3.48%;
+
+    background: #A0616A;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 47.53%;
+    right: 47.29%;
+    top: 97.52%;
+    bottom: -0.04%;
+
+    background: #2F2E41;
+    transform: matrix(0.92, -0.39, 0.39, 0.92, 0, 0);
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 44.62%;
+    right: 42.53%;
+    top: 63.53%;
+    bottom: 4.31%;
+
+    background: #2F2E41;
+
+
+    /* body */
+
+    position: absolute;
+    width: 89.47px;
+    height: 101.75px;
+    left: 166.35px;
+    top: 140.08px;
+
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 37.21%;
+    right: 52.49%;
+    top: 51.49%;
+    bottom: 39.88%;
+
+    background: #A0616A;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 45.82%;
+    right: 47.58%;
+    top: 39.46%;
+    bottom: 52.23%;
+
+    background: #A0616A;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 46.99%;
+    right: 43.38%;
+    top: 48.26%;
+    bottom: 31.88%;
+
+    background: #6C63FF;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 44.99%;
+    right: 50.58%;
+    top: 51.53%;
+    bottom: 41.66%;
+
+    background: #6C63FF;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 48.89%;
+    right: 42.77%;
+    top: 50.84%;
+    bottom: 34.86%;
+
+    background: #A0616A;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 50.93%;
+    right: 43.83%;
+    top: 48.34%;
+    bottom: 45.65%;
+
+    background: #6C63FF;
+
+
+    /* head */
+
+    position: absolute;
+    width: 41.64px;
+    height: 67.56px;
+    left: 200.27px;
+    top: 105.02px;
+
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 45.15%;
+    right: 51.25%;
+    top: 45.81%;
+    bottom: 51.38%;
+
+    background: #3F3D56;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 44.8%;
+    right: 48.59%;
+    top: 37.2%;
+    bottom: 53.04%;
+
+    background: #2F2E41;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 49.67%;
+    right: 47.1%;
+    top: 35.84%;
+    bottom: 51.77%;
+
+    background: #2F2E41;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 47.95%;
+    right: 47.56%;
+    top: 32.94%;
+    bottom: 61.02%;
+
+    background: #6C63FF;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 50.25%;
+    right: 48.2%;
+    top: 33.7%;
+    bottom: 65.44%;
+
+    background: #E6E6E6;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 49.55%;
+    right: 48.05%;
+    top: 34.52%;
+    bottom: 64.39%;
+
+    background: #E6E6E6;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 49.64%;
+    right: 49.47%;
+    top: 30.09%;
+    bottom: 67.48%;
+
+    background: #CCCCCC;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 51.56%;
+    right: 47.57%;
+    top: 29.58%;
+    bottom: 67.91%;
+
+    background: #CCCCCC;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 52.55%;
+    right: 45.88%;
+    top: 31.52%;
+    bottom: 66.47%;
+
+    background: #CCCCCC;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 45.54%;
+    right: 46.31%;
+    top: 34.79%;
+    bottom: 54.94%;
+
+    background: #2F2E41;
+
+
+    /* gray bull */
+
+    position: absolute;
+    width: 297.48px;
+    height: 326.12px;
+    left: 83.11px;
+    top: 0px;
+
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 18.59%;
+    right: 70.44%;
+    top: 33.64%;
+    bottom: 51.06%;
+
+    background: #E6E6E6;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 20.78%;
+    right: 75.26%;
+    top: 35.38%;
+    bottom: 58.28%;
+
+    background: #FFFFFF;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 64.92%;
+    right: 25.64%;
+    top: 78.14%;
+    bottom: 8.13%;
+
+    background: #F2F2F2;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 70.29%;
+    right: 26.97%;
+    top: 81.01%;
+    bottom: 12.77%;
+
+    background: #FFFFFF;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 73.51%;
+    right: 14.86%;
+    top: 0%;
+    bottom: 83.09%;
+
+    background: #E6E6E6;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 80.13%;
+    right: 16.5%;
+    top: 3.53%;
+    bottom: 88.79%;
+
+    background: #FFFFFF;
+
+
+    /* blue bull */
+
+    position: absolute;
+    width: 351.34px;
+    height: 180.81px;
+    left: 76.05px;
+    top: 21.58px;
+
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 83.98%;
+    right: 4.39%;
+    top: 40.1%;
+    bottom: 42.99%;
+
+    background: #6C63FF;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 90.6%;
+    right: 6.03%;
+    top: 43.63%;
+    bottom: 48.7%;
+
+    background: #FFFFFF;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 17.01%;
+    right: 71.18%;
+    top: 6.08%;
+    bottom: 77.45%;
+
+    background: #6C63FF;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 22.2%;
+    right: 73.53%;
+    top: 7.95%;
+    bottom: 85.23%;
+
+    background: #FFFFFF;
+
+
+    /* free strip */
+
+    position: absolute;
+    width: 271.84px;
+    height: 142.46px;
+    left: 80.35px;
+    top: 103.28px;
+
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 17.97%;
+    right: 67.21%;
+    top: 62.43%;
+    bottom: 30.78%;
+
+    background: #6C63FF;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 64.36%;
+    right: 21.21%;
+    top: 60.62%;
+    bottom: 31.1%;
+
+    background: #FF6584;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 60.05%;
+    right: 22.78%;
+    top: 29.09%;
+    bottom: 59.42%;
+
+    background: #E6E6E6;
+
+}

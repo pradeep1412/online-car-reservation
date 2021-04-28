@@ -1,0 +1,11 @@
+.FooterMain {
+    display: block;
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    background-color: #f7fff7;
+}
+
+hr {
+    margin: 0 5%;
+}

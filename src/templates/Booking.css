@@ -1,0 +1,100 @@
+.booking-contain {
+  /* background: hsla(203, 89%, 71%, 1);
+  background: linear-gradient(
+    225deg,
+    hsla(203, 89%, 71%, 1) 50%,
+    hsla(217, 60%, 47%, 1) 100%,
+    hsla(210, 100%, 69%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    225deg,
+    hsla(203, 89%, 71%, 1) 50%,
+    hsla(217, 60%, 47%, 1) 100%,
+    hsla(210, 100%, 69%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    225deg,
+    hsla(203, 89%, 71%, 1) 50%,
+    hsla(217, 60%, 47%, 1) 100%,
+    hsla(210, 100%, 69%, 1) 100%
+  ); */
+  background-color: #f2f2cf;
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#71C3F7", endColorstr="#3066BE", GradientType=1 );
+  height: 800px;
+  position: relative;
+}
+.booking-paper {
+  position: relative;
+  margin: 150px 200px;
+  height: 400px;
+  width: 70%;
+  background: hsla(233, 100%, 90%, 1);
+  background: linear-gradient(
+    90deg,
+    hsla(233, 100%, 90%, 1) 0%,
+    hsla(0, 0%, 89%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(233, 100%, 90%, 1) 0%,
+    hsla(0, 0%, 89%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(233, 100%, 90%, 1) 0%,
+    hsla(0, 0%, 89%, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#CAD0FF", endColorstr="#E3E3E3", GradientType=1 );
+}
+.datetimepicker {
+  top: 10px;
+  left: 10px;
+}
+.display-name {
+  position: absolute;
+}
+
+.head-book {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 40px;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-serif;
+  line-height: 46px;
+  font-weight: 700;
+}
+.picker-contain{
+  display: flex;
+  position: relative;
+  padding: 20px;
+  justify-content: space-between;
+  padding-right: 117px;
+  padding-left: 85px; 
+  padding-top: 30px; 
+}
+.pay-amt{
+  position: absolute !important;
+  bottom: 15px;
+  right: 15px;
+}
+ /* <Button color="primary" className="pay-amt">PAY ₹{priceCal()}</Button> */
+ .start-date {
+   position:absolute;
+   left: 130px;
+   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-serif;
+   
+ }
+ .end-date{
+   position: absolute;
+   right: 150px;
+   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-serif;
+ }
+ .company-name{
+   font-weight: 700;
+   text-align: center;
+   padding-top: 3px;
+   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-serif;
+ }

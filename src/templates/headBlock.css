@@ -1,0 +1,46 @@
+.block {
+    display: block;
+    position: relative;
+    background-color: #222222;
+    color: white;
+    height: 50px;
+}
+
+.textblock {
+    display: relative;
+    padding: 15px;
+    margin: auto;
+    color: gray;
+    object-fit: contain;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    font-weight: 400;
+    /* text-decoration: underline solid rgb(211, 211, 211); */
+    font-size: 14px;
+}
+
+.span-response {
+    display: block;
+    position: absolute;
+    left: 40%;
+}
+
+.textblock:hover {
+    color: #5e5e6e;
+    animation: decorations 2s ease none none;
+    text-decoration: underline solid #5e5e6e;
+}
+
+@keyframes decorations {
+    from {
+        text-decoration-line: none;
+    }
+    to {
+        text-decoration: dashed #5e5e6e;
+    }
+}
+
+.conten {
+    color: black;
+}

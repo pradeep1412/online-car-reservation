@@ -1,0 +1,58 @@
+.Feedconten {
+    width: fit-content;
+    display: inline-flex;
+    padding: 20px;
+}
+
+.paper {
+    height: fit-content;
+    margin: 20px;
+    display: block;
+    padding: 10px;
+}
+
+.starcontent {
+    width: 300px;
+}
+
+.react-stars>span {
+    display: contents !important;
+}
+
+.paracent {
+    visibility: hidden;
+    display: none;
+}
+
+.local {
+    font-size: medium;
+    font-weight: 300;
+}
+
+.ReactStar {
+    background-color: black;
+}
+
+.nearby {
+    font-size: small;
+    font-weight: 500;
+}
+
+.paper:hover,
+.paracent:hover {
+    background-color: rgba(0, 0, 255, 0.1);
+    visibility: visible;
+}
+.ev {
+    color:lightgreen;
+}
+.hot{
+    color:darkgray;
+}
+.badge{
+    font-size: small !important;
+    font-weight: 500 !important;
+    height: 20px !important;
+    margin-left: 5px !important;
+
+}

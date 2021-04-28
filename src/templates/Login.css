@@ -1,0 +1,102 @@
+.login {
+    background-color: #f2f2cf;
+    position: relative;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    place-items: center;
+    height: 660px;
+}
+
+.paramember {
+    position: relative;
+    padding-left: 60px;
+}
+
+/* .login_register {
+    position: absolute;
+    padding-left: 40px;
+    top: 0%;
+    right: 30px;
+} */
+.login_register{
+    padding-left: 5px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs {
+    width: 350px;
+    height: 54px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.sign {
+    width: 350px;
+    height: 54px;
+    padding: 0%;
+    margin-top: 5px !important;
+    color: white !important;
+    background-color: #0177b7 !important;
+    border-radius: 5px;
+    justify-content: flex-start;
+}
+
+.login_register {
+    color: #0177b7;
+    cursor: pointer;
+}
+
+.sigin {
+    position: relative;
+    width: 350px;
+    height: 54px;
+    font-size: medium;
+    color: white;
+    background-color: #0177b7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign_in {
+    position: absolute;
+    margin-top: 15px;
+    font-size: medium;
+    color: white;
+    background-color: #0177b7;
+    align-items: center;
+    color: white;
+}
+
+
+/* .sign {
+    font-size: medium;
+    color: white !important;
+    background-color: #0177b7 !important;
+} */
+
+.link-reg{
+    height: 54px !important;
+    width: 350px !important;
+}
+/* <a href="" style={{textDecoration:"none",color:"white"}} className="link-reg"> */

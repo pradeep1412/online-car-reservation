@@ -1,0 +1,14 @@
+.host-contain{
+  background-color: #f2f2cf; 
+  height: 800px;
+  position: relative;
+}
+.host-form{
+    display:grid;
+    width: max-content;
+    position: relative;
+}
+.feilds{
+    /* position:absolute; */
+    left: 40px;
+}
